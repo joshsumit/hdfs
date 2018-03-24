@@ -1,6 +1,8 @@
 # hdfs
 Based on  sequenceiq/hadoop-docker:latest docker
 
+ $HADOOP_PREFIX/bin/hadoop version
+
 $HADOOP_PREFIX/bin/hdfs dfs -ls
 
 $HADOOP_PREFIX/bin/hadoop fs -ls
