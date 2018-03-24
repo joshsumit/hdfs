@@ -27,3 +27,5 @@ $HADOOP_PREFIX/bin/hdfs  dfs -cat sumitH/names.csv
 
 remove the file from local, it will remain in hdfs
 
+To display a table named 'newname' imported from sql server using sqoop 
+$HADOOP_PREFIX/bin/hdfs dfs -cat newname/part-m-*
